@@ -1,4 +1,11 @@
-const contentSubsManagerController = require('./contentSubsManagerController');
+// const contentSubsManagerController = require('./contentSubsManagerController');
+
+
+
+
+
+
+// 5 functions: add user, update access tier, check/get billing date, show subscribed channels by custom grps (e.g. cooking, tech, music, etc), delete user, update notifications preference, get total subs count of a channel
 
 // module.exports = {
 //     // Explain what function A does
