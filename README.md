@@ -1,13 +1,23 @@
-# Assignment 1
+# Assignment 1 - Content Subscription Manager
 
-You will only need one file, ie, your node module, for this assignment.
+## Setup
+Only need node.js installed.
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
-
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
-
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## How to Use
+1. Remember to always include contentSubscriptionManager before each function name.
+2. addNewUser - Adds new user with the following parameters: name, tier, notificationsPreference, billingDate, playlists. Excluding playlists, the other parameters are String, and playlists is array. So, please use " " for String and [" "] for array.
+3. getUserByName - Gets user by name with the following parameter: name. The parameter is a String.
+4. deleteUserByName - Deletes user by name with the following parameter: name. The parameter is a String.
+5. updateUserAccessTier - Updates user's access tier to either Free or Premium with the following parameters: name, tier. The parameters are String.
+6. changeBillingCycle - Updates user's billing cycle to either Monthly or Yearly and calculates the next billing date. The parameters are: name, cycle and are String.
+7. addNewPlaylist - Adds new playlist to user's existing playlist with the following parameters: name, playlistName. The parameters are String. 
 
 # References
-Provide the references that you have used to support your assignment. 
+For user access tiers, playlists and notifications preferences.  
 https://www.youtube.com/
+
+For billing cycle.  
+https://one.google.com/about/plans?g1_landing_page=60
+
+# AI Declaration
+Used Gemini for generating ideas, date conversion example and .splice() example.
