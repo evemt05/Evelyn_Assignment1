@@ -24,6 +24,10 @@ contentSubscriptionManager.addNewUser("Jackson", undefined, "all", "01-06-2027",
 // console.log("----Delete Existing User----");
 // contentSubscriptionManager.deleteUserByName("Peter");
 
+// Update user's tier with invalid value
+// console.log("----Update User's Tier with Invalid Value----");
+// contentSubscriptionManager.updateUserAccessTier("Lupa", "student");
+
 // Update user's tier with the same value
 // console.log("----Update User's Tier with Same Value----");
 // contentSubscriptionManager.updateUserAccessTier("Lupa", "free");
