@@ -12,6 +12,10 @@ contentSubscriptionManager.addNewUser("Jackson", undefined, "all", "01-06-2027",
 // console.log("----Get Existing User----");
 // console.log(contentSubscriptionManager.getUserByName("Ray"));
 
+// Add new user with the wrong value for tier
+// console.log("----Add New User with Invalid Value----");
+// contentSubscriptionManager.addNewUser("Dean", "student", "none", "01-06-2027", ["favorites"]);
+
 // Delete non-existing user
 // console.log("----Delete Non-Existing User----");
 // contentSubscriptionManager.deleteUserByName("May");
