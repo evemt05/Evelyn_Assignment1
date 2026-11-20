@@ -20,4 +20,4 @@ For billing cycle.
 https://one.google.com/about/plans?g1_landing_page=60
 
 # AI Declaration
-Used Gemini for generating ideas, date conversion example and .splice() example.
+Used Gemini for generating ideas, date conversion example, .splice() example and .padStart() example.
