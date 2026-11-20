@@ -4,6 +4,10 @@ const contentSubscriptionManager = require('./Evelyn_contentSubscriptionManager'
 console.log("----Add Existing User----");
 contentSubscriptionManager.addNewUser("Jackson", undefined, "all", "01-06-2027", ["favorites"]);
 
+// Add new user with the wrong value for tier
+// console.log("----Add New User with Invalid Value----");
+// contentSubscriptionManager.addNewUser("Dean", "student", "none", "01-06-2027", ["favorites"]);
+
 // Add new user with the tier set to "free" by default
 // console.log("----Add New User----");
 // contentSubscriptionManager.addNewUser("Ray", undefined, "none", "01-06-2027", ["favorites"]);
@@ -11,10 +15,6 @@ contentSubscriptionManager.addNewUser("Jackson", undefined, "all", "01-06-2027",
 // Get existing user by name
 // console.log("----Get Existing User----");
 // console.log(contentSubscriptionManager.getUserByName("Ray"));
-
-// Add new user with the wrong value for tier
-// console.log("----Add New User with Invalid Value----");
-// contentSubscriptionManager.addNewUser("Dean", "student", "none", "01-06-2027", ["favorites"]);
 
 // Delete non-existing user
 // console.log("----Delete Non-Existing User----");
